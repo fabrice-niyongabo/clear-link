@@ -1,3 +1,7 @@
-<template>home component</template>
+<template>
+  <HeroSection />
+</template>
 
-<script setup></script>
+<script setup>
+import HeroSection from "./Hero/index.vue";
+</script>

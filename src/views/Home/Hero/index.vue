@@ -1,0 +1,12 @@
+<template>
+  <section
+    class="h-screen w-full"
+    :style="{ backgroundImage: `url(${bgImage})`, backgroundSize: '100%' }"
+  >
+    <NavBar />
+  </section>
+</template>
+<script setup>
+import bgImage from "@/assets/img/bg.png";
+import NavBar from "./NavBar/index.vue";
+</script>
