@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <nav
-      class="bg-clear-link-gray-bg border border-clear-link-gray-border px-[32px] py-[16px] rounded-full flex items-center justify-between gap-2"
+      class="bg-clear-link-gray-bg border border-clear-link-gray-border px-[32px] py-[10px] rounded-full flex items-center justify-between gap-2"
     >
       <RouterLink to="/">
         <div class="flex items-start justify-center gap-2">
@@ -38,12 +38,12 @@
       </ul>
       <div class="flex items-center justify-between gap-2">
         <button
-          class="bg-white px-[20px] py-[5px] rounded-full font-semibold text-clear-link-darket-text transition-all duration-100 hover:bg-white/80 text-sm"
+          class="bg-white px-[20px] py-[8px] rounded-full font-semibold text-clear-link-darket-text transition-all duration-100 hover:bg-white/80 text-sm"
         >
           Talk to sales
         </button>
         <button
-          class="bg-clear-link-blue-bg px-[20px] py-[5px] rounded-full font-semibold text-white transition-all duration-100 hover:bg-clear-link-blue-bg/80 text-sm"
+          class="bg-clear-link-blue-bg px-[20px] py-[8px] rounded-full font-semibold text-white transition-all duration-100 hover:bg-clear-link-blue-bg/80 text-sm"
         >
           Sign up for free
         </button>

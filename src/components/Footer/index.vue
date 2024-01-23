@@ -9,7 +9,7 @@
               ClearLink<span class="text-clear-link-lightblue-text">.</span>
             </h2>
           </div>
-          <p class="text-clear-link-gray-text mt-2">
+          <p class="text-clear-link-gray-text mt-5">
             ClearLink is your gateway to effortless, high-quality video
             conferencing. Join us in shaping the future of communication!
           </p>
