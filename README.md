@@ -1,29 +1,16 @@
 # ClearLink
 
-This template should help get you started developing with Vue 3 in Vite.
+A project for uniting the world, one video call at a time
 
-## Recommended IDE Setup
+## Getting started
+1. Clone the repo ``git clone https://github.com/fabrice-niyongabo/clear-link.git``
+2. Install dependencies ``npm install``
+3. Run the project ``npm run dev``
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Live project URL
 
-## Customize configuration
+[https://fabrice-clear-link.netlify.app/](https://fabrice-clear-link.netlify.app/)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Screenshoots
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+![screenshoots](https://github.com/fabrice-niyongabo/clear-link/blob/master/public/screenshoots/1.png)
