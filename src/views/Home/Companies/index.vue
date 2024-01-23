@@ -1,6 +1,6 @@
 <template>
   <section>
-    <v-container>
+    <v-container class="py-5">
       <p class="text-center text-clear-link-gray-text">
         Join 1,500+ companies already video conferencing the ClearLink way
       </p>

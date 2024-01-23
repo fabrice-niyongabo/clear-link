@@ -9,11 +9,11 @@
             alt=""
           />
           <div class="flex items-center justify-start gap-1 my-10">
-            <i class="fa fa-star text-clear-link-gold"></i>
-            <i class="fa fa-star text-clear-link-gold"></i>
-            <i class="fa fa-star text-clear-link-gold"></i>
-            <i class="fa fa-star text-clear-link-gold"></i>
-            <i class="fa fa-star text-clear-link-gold"></i>
+            <v-icon size="small" icon="mdi-star" class="text-clear-link-gold" />
+            <v-icon size="small" icon="mdi-star" class="text-clear-link-gold" />
+            <v-icon size="small" icon="mdi-star" class="text-clear-link-gold" />
+            <v-icon size="small" icon="mdi-star" class="text-clear-link-gold" />
+            <v-icon size="small" icon="mdi-star" class="text-clear-link-gold" />
           </div>
           <h3
             class="text-4xl text-clear-link-darket-text font-[500] leading-[50px] tracking-[-0.88px]"
