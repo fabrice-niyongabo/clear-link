@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="grid grid-cols-2 gap-8">
-      <div class="sm:pl-0 md:pl-20">
+      <div class="sm:pl-0 md:pl-24">
         <div class="w-full md:w-[80%] p-0 md:py-5">
           <h2
             class="text-4xl text-clear-link-darket-text font-semibold mt-[5px] leading-[50px] tracking-[-0.96px]"
