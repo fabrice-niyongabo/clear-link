@@ -40,18 +40,20 @@
             </div>
             <div class="flex items-center justify-center gap-4">
               <button
-                class="bg-white px-4 py-3 rounded-full border shadow-md border-clear-link-light-gray-border transition-all duration-500 hover:!bg-clear-link-light-gray-border"
+                class="bg-white p-3 rounded-full border shadow-md border-clear-link-light-gray-border transition-all duration-500 hover:!bg-clear-link-light-gray-border"
               >
-                <i
-                  class="fa fa-long-arrow-left text-clear-link-lightblue-text text-sm"
-                ></i>
+                <v-icon
+                  icon="mdi-arrow-left"
+                  class="text-clear-link-lightblue-text text-sm"
+                />
               </button>
               <button
-                class="bg-white px-4 py-3 rounded-full border shadow-md border-clear-link-light-gray-border transition-all duration-500 hover:!bg-clear-link-light-gray-border"
+                class="bg-white p-3 rounded-full border shadow-md border-clear-link-light-gray-border transition-all duration-500 hover:!bg-clear-link-light-gray-border"
               >
-                <i
-                  class="fa fa-long-arrow-right text-clear-link-lightblue-text text-sm"
-                ></i>
+                <v-icon
+                  icon="mdi-arrow-right"
+                  class="text-clear-link-lightblue-text text-sm"
+                />
               </button>
             </div>
           </div>

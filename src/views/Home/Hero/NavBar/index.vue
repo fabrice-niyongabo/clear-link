@@ -16,19 +16,19 @@
           class="text-clear-link-gray-text font-semibold flex items-center justify-center gap-2 hover:cursor-pointer hover:text-clear-link-lightblue-text transition-all duration-100"
         >
           <span>Products</span>
-          <i class="fa fa-chevron-down"></i>
+          <v-icon icon="mdi-chevron-down" />
         </li>
         <li
           class="text-clear-link-gray-text font-semibold flex items-center justify-center gap-2 hover:cursor-pointer hover:text-clear-link-lightblue-text transition-all duration-100"
         >
           <span>Solutions</span>
-          <i class="fa fa-chevron-down"></i>
+          <v-icon icon="mdi-chevron-down" />
         </li>
         <li
           class="text-clear-link-gray-text font-semibold flex items-center justify-center gap-2 hover:cursor-pointer hover:text-clear-link-lightblue-text transition-all duration-100"
         >
           <span>Resources</span>
-          <i class="fa fa-chevron-down"></i>
+          <v-icon icon="mdi-chevron-down" />
         </li>
         <li
           class="text-clear-link-gray-text font-semibold hover:cursor-pointer hover:text-clear-link-lightblue-text transition-all duration-100"

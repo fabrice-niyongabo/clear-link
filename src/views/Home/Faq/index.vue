@@ -1,7 +1,7 @@
 <template>
   <section class="py-12">
     <v-container>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
         <div>
           <p class="text-clear-link-blue-bg text-md font-semibold">Support</p>
           <h3
@@ -17,7 +17,15 @@
         </div>
         <div class="col-span-1 md:col-span-2">
           <ul>
-            <Question v-for="question in faqs" :key="question.id" />
+            <Question
+              v-for="question in faqs"
+              :key="question.id"
+              :answer="question.answer"
+              :id="question.id"
+              :title="question.title"
+              :expanded-id="expandedId"
+              @updateExpandedIndex="updateExpandedIndex"
+            />
           </ul>
         </div>
       </div>
@@ -27,6 +35,12 @@
 <script setup>
 import { ref } from "vue";
 import Question from "./Question/index.vue";
+
+const expandedId = ref(1);
+
+const updateExpandedIndex = (index) => {
+  expandedId.value = index;
+};
 
 const faqs = ref([
   {
