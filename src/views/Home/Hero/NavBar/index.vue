@@ -38,12 +38,12 @@
       </ul>
       <div class="flex items-center justify-between gap-2">
         <button
-          class="bg-white px-[24px] py-[14px] rounded-full font-semibold text-clear-link-darket-text transition-all duration-100 hover:bg-white/80"
+          class="bg-white px-[20px] py-[5px] rounded-full font-semibold text-clear-link-darket-text transition-all duration-100 hover:bg-white/80 text-sm"
         >
           Talk to sales
         </button>
         <button
-          class="bg-clear-link-blue-bg px-[24px] py-[14px] rounded-full font-semibold text-white transition-all duration-100 hover:bg-clear-link-blue-bg/80"
+          class="bg-clear-link-blue-bg px-[20px] py-[5px] rounded-full font-semibold text-white transition-all duration-100 hover:bg-clear-link-blue-bg/80 text-sm"
         >
           Sign up for free
         </button>

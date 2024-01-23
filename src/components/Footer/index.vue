@@ -1,5 +1,5 @@
 <template>
-  <footer class="pt-10">
+  <footer class="pt-16">
     <v-container>
       <div class="flex items-start justify-start flex-col md:flex-row gap-4">
         <div class="w-full md:w-[400px]">
@@ -20,27 +20,27 @@
               <h4 class="text-[#667085] font-semibold text-xs">Product</h4>
               <ul class="mt-3">
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Overview</RouterLink>
                 </li>
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Features </RouterLink>
                 </li>
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Solutions </RouterLink>
                 </li>
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Tutorials </RouterLink>
                 </li>
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Pricing</RouterLink>
                 </li>
@@ -50,27 +50,27 @@
               <h4 class="text-[#667085] font-semibold text-xs">Company</h4>
               <ul class="mt-3">
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">About us</RouterLink>
                 </li>
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Careers</RouterLink>
                 </li>
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Press</RouterLink>
                 </li>
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">News</RouterLink>
                 </li>
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Contact</RouterLink>
                 </li>
@@ -80,27 +80,27 @@
               <h4 class="text-[#667085] font-semibold text-xs">Resources</h4>
               <ul class="mt-3">
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Blog</RouterLink>
                 </li>
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Events</RouterLink>
                 </li>
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Help centre</RouterLink>
                 </li>
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Tutorials</RouterLink>
                 </li>
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Support</RouterLink>
                 </li>
@@ -110,27 +110,27 @@
               <h4 class="text-[#667085] font-semibold text-xs">Legal</h4>
               <ul class="mt-3">
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Terms</RouterLink>
                 </li>
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Privacy</RouterLink>
                 </li>
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Cookies</RouterLink>
                 </li>
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Licenses</RouterLink>
                 </li>
                 <li
-                  class="mb-2 text-clear-link-gray-text font-semibold text-md"
+                  class="mb-3 text-clear-link-gray-text font-semibold text-md"
                 >
                   <RouterLink to="#">Contact</RouterLink>
                 </li>
@@ -188,3 +188,9 @@
     </div>
   </footer>
 </template>
+
+<style scoped>
+a:hover {
+  color: #175cd3;
+}
+</style>

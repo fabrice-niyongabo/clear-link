@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <div class="flex items-start justify-between mt-10">
+    <div class="flex items-start justify-between mt-16">
       <div class="flex-1">
         <h2 class="font-semibold text-5xl tracking-[-1.28px] leading-[55px]">
           Uniting the world,<br />
@@ -32,11 +32,31 @@
           <div>
             <div class="flex items-center justify-start gap-1 text-sm">
               <div class="flex items-center justify-between gap-1">
-                <i class="fa fa-star text-clear-link-gold"></i>
-                <i class="fa fa-star text-clear-link-gold"></i>
-                <i class="fa fa-star text-clear-link-gold"></i>
-                <i class="fa fa-star text-clear-link-gold"></i>
-                <i class="fa fa-star text-clear-link-gold"></i>
+                <v-icon
+                  size="small"
+                  icon="mdi-star"
+                  class="text-clear-link-gold"
+                />
+                <v-icon
+                  size="small"
+                  icon="mdi-star"
+                  class="text-clear-link-gold"
+                />
+                <v-icon
+                  size="small"
+                  icon="mdi-star"
+                  class="text-clear-link-gold"
+                />
+                <v-icon
+                  size="small"
+                  icon="mdi-star"
+                  class="text-clear-link-gold"
+                />
+                <v-icon
+                  size="small"
+                  icon="mdi-star"
+                  class="text-clear-link-gold"
+                />
               </div>
               <span class="text-clear-link-darket-text">5.0</span>
             </div>

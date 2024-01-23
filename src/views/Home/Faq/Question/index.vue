@@ -1,6 +1,6 @@
 <template>
   <li
-    :class="`flex items-start justify-between gap-4 p-5 border-b border-[#EAECF0] mb-1 ${
+    :class="`flex items-start justify-between gap-4 p-5 border-b border-[#EAECF0] mb-2 ${
       expandedId === id ? 'bg-[#F9FAFB] rounded-md border' : ''
     }`"
   >
